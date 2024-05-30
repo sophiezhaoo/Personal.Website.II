@@ -1,0 +1,123 @@
+html {
+    background-color: pink;
+    font-size: 16px;
+    font-family:Georgia, 'Times New Roman', Times, serif
+
+}
+
+body {
+    background-color: lightpink;
+    box-shadow: 0 0 12px -2px black;
+    padding: 0;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+a {
+    color: lightpink;
+    text-decoration: none;
+    font-size: x-large;
+    margin: 0 5px;
+    align-items: right;
+    font-color: gray;
+}
+
+header {
+    box-shadow: 0 0 12px -2px black;
+    position: fixed;
+    left: 0;
+    right: 0;
+    align-items: right;
+    background-color: gray;
+    display: flex;
+    justify-content: space-between;
+}
+
+main {
+    min-height: 100vh;
+    padding: 85px 24px 96px;
+    box-shadow: 0 0 12px -2px black;
+    color: black;
+    font-family:'Times New Roman', Times, serif
+    font-size: 25px;
+}
+
+  .active {
+    border-bottom: 1px solid #c0c0c0;
+  }
+  
+  main > img {
+    /* height: 500px; */
+    width: 300px;
+    float: right;
+    margin: 10px 0 10px 10px;
+  }
+  
+  main .quote {
+    font-family: 'Satisfy', cursive;
+    color: black;
+    font-size: 25px;
+    font-weight: 100;
+    text-shadow: 1px 1px 2px black;
+    text-align: center;
+    margin-top: 4em;
+  }
+  
+  section {
+    border-top: 1px solid #bbb;
+    font-size: 16px;
+  }
+  
+  #about-header {
+    font-weight: 300;
+    font-size: 2rem;
+  }
+
+  .about-section:nth-of-type(2n) > img {
+    float: left;
+    margin: 0 24px 24px 0;
+  }
+  
+  .about-section:nth-of-type(2n + 1) > img {
+    float: right;
+    margin: 0 24px 24px 24px;
+  }
+  
+  .about-section img {
+    height: 128px;
+  }
+  
+  .Countries h2 {
+    font-weight: 500;
+    font-size: 2em;
+    margin: 0 0 1em;
+    border-bottom: 2px solid #ccc;
+  }
+  
+  #page-header {
+    font-weight: 100;
+    font-size: 2rem;
+    border-bottom: 1px solid #ccc;
+  }
+  
+    .Countries {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .Countries img {
+      width: 100%
+      margin-left: 0
+      margin-right: 0
+    }
+  
+    main {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    main .quote {
+      margin-top: 0;
+    }
